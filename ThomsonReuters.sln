@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThomsonReuters.Api", "ThomsonReuters.Api\ThomsonReuters.Api.csproj", "{05A19AE3-CAD8-477F-B8F6-F4FB63FDF24F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThomsonReuters.Business", "ThomsonReuters.Business\ThomsonReuters.Business.csproj", "{710E2EA5-6194-4304-B3F2-AF70F418E625}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThomsonReuters.Infra", "ThomsonReuters.Infra\ThomsonReuters.Infra.csproj", "{263BF02A-A413-4BB4-9852-9F6A963DB130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThomsonReuters.CrossCutting", "ThomsonReuters.CrossCutting\ThomsonReuters.CrossCutting.csproj", "{CE8D7D9E-ACF1-4A6B-BE25-8B1242147D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomsonReuters.Application", "ThomsonReuters.Application\ThomsonReuters.Application.csproj", "{37345621-2AAC-4D4B-9A15-2D46119F57EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThomsonReuters.Tests", "ThomsonReuters.Tests", "{A632574D-E754-4226-BF75-7E01194EAEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegalCases.Tests", "LegalCases.Tests\LegalCases.Tests.csproj", "{7934A1A2-A1DF-4A1B-9D3F-916AC29CEE19}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A54810F0-4CC6-4AED-85A0-865FC8B0C1B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A19AE3-CAD8-477F-B8F6-F4FB63FDF24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A19AE3-CAD8-477F-B8F6-F4FB63FDF24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A19AE3-CAD8-477F-B8F6-F4FB63FDF24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A19AE3-CAD8-477F-B8F6-F4FB63FDF24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710E2EA5-6194-4304-B3F2-AF70F418E625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710E2EA5-6194-4304-B3F2-AF70F418E625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710E2EA5-6194-4304-B3F2-AF70F418E625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710E2EA5-6194-4304-B3F2-AF70F418E625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263BF02A-A413-4BB4-9852-9F6A963DB130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263BF02A-A413-4BB4-9852-9F6A963DB130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263BF02A-A413-4BB4-9852-9F6A963DB130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263BF02A-A413-4BB4-9852-9F6A963DB130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8D7D9E-ACF1-4A6B-BE25-8B1242147D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8D7D9E-ACF1-4A6B-BE25-8B1242147D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8D7D9E-ACF1-4A6B-BE25-8B1242147D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8D7D9E-ACF1-4A6B-BE25-8B1242147D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37345621-2AAC-4D4B-9A15-2D46119F57EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37345621-2AAC-4D4B-9A15-2D46119F57EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37345621-2AAC-4D4B-9A15-2D46119F57EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37345621-2AAC-4D4B-9A15-2D46119F57EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7934A1A2-A1DF-4A1B-9D3F-916AC29CEE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7934A1A2-A1DF-4A1B-9D3F-916AC29CEE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7934A1A2-A1DF-4A1B-9D3F-916AC29CEE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7934A1A2-A1DF-4A1B-9D3F-916AC29CEE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54810F0-4CC6-4AED-85A0-865FC8B0C1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54810F0-4CC6-4AED-85A0-865FC8B0C1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54810F0-4CC6-4AED-85A0-865FC8B0C1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54810F0-4CC6-4AED-85A0-865FC8B0C1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7934A1A2-A1DF-4A1B-9D3F-916AC29CEE19} = {A632574D-E754-4226-BF75-7E01194EAEE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F1C665-B426-49EF-9849-16625CA96F40}
+	EndGlobalSection
+EndGlobal
