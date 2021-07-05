@@ -1,5 +1,9 @@
 # thomson
 
+SWAGGER:
+
+https://thomsonreutersapi.azurewebsites.net/swagger/index.html
+
 URL para autenticar necessário para realizar as chamadas
 
 https://thomsonreutersapi.azurewebsites.net/api/user/authenticate
